@@ -1,0 +1,3 @@
+import {services} from '../../lib/data';import {PageHero,ServiceCard} from '../../components/Site';
+export const metadata={title:'Our Services'};
+export default function Services(){return <><PageHero crumb="Services" title="Our Services" description="Explore the six service activities listed in the supplied Udyam registration extract."/><section className="pad light"><div className="container"><div className="services-grid">{services.map(s=><ServiceCard key={s.slug} service={s}/>)}</div><p className="fine-print">NIC activity codes describe registered activity categories; they do not, by themselves, establish sector-specific licences or regulatory authorisations. Contact us to confirm service scope and availability.</p></div></section></>}
