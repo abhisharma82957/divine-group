@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
+
 import {
   Menu,
   X,
@@ -18,9 +19,11 @@ import {
   Plane,
   Route,
   ChartNoAxesCombined,
+  Building2,
 } from "lucide-react";
 
 import { company, services, wa } from "../lib/data";
+
 
 export const icons = {
   Landmark,
@@ -29,6 +32,7 @@ export const icons = {
   Plane,
   Route,
   ChartNoAxesCombined,
+  Building2,
 };
 
 const nav = [
