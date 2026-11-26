@@ -8,6 +8,9 @@ export const metadata = {
     template: "%s | Divine Group of Companies",
   },
   description: "Divine Group of Companies",
+  verification: {
+  google: "oNRHgtbEHHjW-Xk8O_LsUvkGoDYtHP5O7ilX1RmWlhk",
+},
   icons: {
     icon: "/assets/icon.png",
     shortcut: "/assets/icon.png",
